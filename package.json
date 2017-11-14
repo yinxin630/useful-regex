@@ -1,0 +1,29 @@
+{
+  "name": "useful-regex",
+  "version": "0.0.1",
+  "description": "常用正则表达式大全",
+  "main": "dist/useful-regex.js",
+  "scripts": {
+    "dev": "export NODE_ENV=development && rollup -c rollup.conf.js --watch",
+    "build": "export NODE_ENV=production && rollup -c rollup.conf.js && uglifyjs -c -m -o dist/useful-regex.min.js -- dist/useful-regex.js"
+  },
+  "author": {
+    "name": "yinxin630",
+    "email": "yinxin630@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "rollup": "^0.51.5",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "uglify-js": "^3.1.9"
+  },
+  "dependencies": {}
+}
