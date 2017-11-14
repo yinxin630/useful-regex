@@ -1,6 +1,6 @@
 {
   "name": "useful-regex",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "常用正则表达式大全",
   "main": "dist/useful-regex.js",
   "scripts": {
@@ -11,6 +11,12 @@
     "name": "yinxin630",
     "email": "yinxin630@gmail.com"
   },
+  "repository": "https://github.com/yinxin630/useful-regex",
+  "keywords": [
+    "regex",
+    "正则表达式",
+    "中国"
+  ],
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
