@@ -1,0 +1,6 @@
+node_modules/
+.babelrc
+.gitignore
+npm-debug.log
+rollup.conf.js
+LICENSE
