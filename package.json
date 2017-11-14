@@ -1,6 +1,6 @@
 {
   "name": "useful-regex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "常用正则表达式大全",
   "main": "dist/useful-regex.js",
   "scripts": {
