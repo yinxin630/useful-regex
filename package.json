@@ -1,8 +1,8 @@
 {
   "name": "useful-regex",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "常用正则表达式大全",
-  "main": "dist/useful-regex.js",
+  "main": "dist/useful-regex.min.js",
   "scripts": {
     "test": "export NODE_ENV=test && mocha --require babel-core/register",
     "dev": "export NODE_ENV=development && rollup -c rollup.conf.js --watch",
