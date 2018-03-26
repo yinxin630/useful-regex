@@ -4,6 +4,7 @@
   "description": "常用正则表达式大全",
   "main": "dist/useful-regex.js",
   "scripts": {
+    "test": "export NODE_ENV=test && mocha --require babel-core/register",
     "dev": "export NODE_ENV=development && rollup -c rollup.conf.js --watch",
     "build": "export NODE_ENV=production && rollup -c rollup.conf.js && uglifyjs -c -m -o dist/useful-regex.min.js -- dist/useful-regex.js"
   },
