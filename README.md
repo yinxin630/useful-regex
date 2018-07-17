@@ -23,6 +23,7 @@ const isChinese = UsefulRegex.Chinese.test('中文');
 |PhoneYidong|中国移动|
 |PhoneLiantong|中国联通|
 |PhoneDianxin|中国电信|
+|Telephone|固定电话|
 |Email|邮箱|
 |URI|统一资源标识符|
 |URL|统一资源定位符|
